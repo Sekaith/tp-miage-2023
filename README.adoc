@@ -1,9 +1,6 @@
 # TP MIAGE conception logicielle
 
-## Nom du(des) étudiant(e)(s) de ce monôme/binôme 
-WARNING: NE PAS OUBLIER DE MENTIONNER LES DEUX NOMS SI VOUS ETES EN BINOME!
-
-#XXX# (et #YYY#)
+RICHARD Mathias et BOURMAUD Thomas
 
 Commentaires éventuels des étudiants : #XXXXXX#
 
