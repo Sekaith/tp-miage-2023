@@ -103,6 +103,10 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
 
+L'architecture héxagonale est un modèle d'architecture logicielle qui vise à séparer les différents domaines et composants d'une application. Elle sépare les différentes couches de l'application avec une couche centrale et des couches externes qui servent d'IHM ou d'interface avec d'autres logiciels/API.
+Elle permet de maintenir une certaine cohésion et une bonne modularité.
+
+
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 
 * prend un `TodoItem` au format JSON dans le body (voir exemple de contenu plus haut);
