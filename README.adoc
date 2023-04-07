@@ -110,6 +110,11 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
   - la couche `domain` qui contient les entités (au sens DDD, pas au sens JPA). En général des classes complexes (méthodes riches, relations entre les entités)
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
+L'architecture hexagonale, également connue sous le nom de ports et adaptateurs, est un modèle architectural qui met l'accent sur la séparation des préoccupations et la flexibilité. L'architecture hexagonale est basée sur l'idée que les composants du système peuvent être divisés en trois parties principales :
+- Le noyau ou le domaine : contient les règles métier et les fonctionnalités clés de l'application.
+- Les adaptateurs : fournissent des interfaces pour interagir avec le noyau, tels que des API REST, des interfaces de base de données, des interfaces utilisateur, etc.
+- Les ports : sont des interfaces qui permettent de connecter différents adaptateurs entre eux.
+
 
 L'architecture héxagonale est un modèle d'architecture logicielle qui vise à séparer les différents domaines et composants d'une application. Elle sépare les différentes couches de l'application avec une couche centrale et des couches externes qui servent d'IHM ou d'interface avec d'autres logiciels/API.
 Elle permet de maintenir une certaine cohésion et une bonne modularité.
