@@ -13,7 +13,7 @@ import com.acme.todolist.domain.TodoItem;
 
 /**
  * Implémentation JPA des port out de persistence
- * 
+ *
  * @author bflorat
  *
  */
@@ -37,6 +37,11 @@ public class TodoItemPersistenceAdapter implements LoadTodoItem,UpdateTodoItem {
 				.map(todoItemJpaEntory -> mapper.mapToTodoItem(todoItemJpaEntory)).collect(Collectors.toList());
 	}
 
-	// A compléter
+	@Override
+	public void storeNewTodoItem(TodoItem item) {
+		System.out.print(item.getContent());
+		this.todoItemRepository.save(mapper.mapToTodoItemJpaEntity(item));
+	}
+
 
 }
